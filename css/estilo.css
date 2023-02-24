@@ -1,0 +1,502 @@
+
+@font-face {
+  font-family: "Montserrat-Light";
+  src: url("../fonts/Montserrat/static/Montserrat-ExtraLight.ttf");
+}  
+
+@font-face {
+  font-family: "Montserrat-ExtraBold";
+  src: url("../fonts/Montserrat/static/Montserrat-ExtraBold.ttf");
+}  
+
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url("../fonts/Montserrat/static/Montserrat-Regular.ttf");
+}  
+
+
+.logo-sobre-imagen {
+    position: absolute;
+    top: 8%;
+    left: 5%;
+  }
+
+.flecha-abajo-sobre-imagen {
+    position: absolute;
+    top: 90%;
+    left: 5%;
+  }
+
+.logo-proyectos {
+    position: absolute;
+    top: 3%;
+    left: 5%;
+  }  
+
+.logo {
+  width: 100%;
+}
+
+.logo_en_navbar {
+  width: 92px;
+}
+
+.letras-sobre-imagen {
+  position: absolute;
+  top: 45%;
+  left: 5%;
+  font-family: 'Montserrat-ExtraBold', sans-serif ;
+  color:white; 
+  font-weight: 800; 
+  font-size: 2.3rem;
+  line-height: 1.2;
+  letter-spacing: 16px;
+}
+
+.texto-sobre-imagen {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 50%;
+  background-color: gray;
+  opacity: 0.5;
+  border: 0px solid transparent;
+}
+
+.barra-sobre-imagen {
+  position: absolute;
+  top: 0%;
+  left: 95%;
+  width: 10%;
+  height: 100% ;
+  background-color: black;
+  opacity: 0.8;
+  border: 0px solid transparent;
+}
+
+.sidebar {
+  width: 25%;
+}
+    
+.sidebar-item {
+  font-size: 1.2rem;
+}
+
+.sidebar-burger {
+    font-size: 2.2rem;
+    padding: 8px 20px;
+}
+
+
+.nav-link {
+    color: black; 
+    font-size: 18px;
+    border:solid 1px black !important;
+    background-color: #d3d3d3 !important;    
+  }
+
+.nav-link.active {
+    /*background-color: rgb(248, 245, 245) !important;*/
+    background-color: transparent !important;
+    border-bottom: 0 !important;
+    font-weight: bold !important;
+    font-size: 20px !important; 
+  }
+
+  i.fab {
+    font-size: 2rem;
+    font-style: normal;
+    font-family: fontawesome;
+  }
+  
+  .fa-instagram:before {
+    color: transparent;
+    position: absolute; 
+    left: 15%; 
+    top: 30%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to right, #5BC4F1,#517FBF);
+  }
+
+  .bi-youtube:before {
+    color: transparent;
+    position: absolute; 
+    left: 13%; 
+    top: 37%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to right, #5BC4F1,#517FBF);
+    font-size: 2rem;
+    font-style: normal;
+  }
+
+  .fa-facebook:before {
+    color: transparent;
+    position: absolute; 
+    left: 16%; 
+    top: 42%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to right, #5BC4F1,#517FBF);
+  }
+
+  .fa-whatsapp:before {
+    color: transparent;
+    position: absolute; 
+    left: 14%; 
+    top: 48%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to right, #5BC4F1,#517FBF);
+    font-size: 2.4rem;
+  }
+
+  /*.fa-whatsapp:before {
+    color: white;
+    position: absolute; 
+    left: 15%; 
+    bottom: 20%; 
+    font-size: 0rem;
+  }
+
+  .hola-texto {
+    color: white;
+    position: absolute; 
+    left: 13%; 
+    bottom: 17%;  
+    font-size: 0rem;   
+  }*/
+
+  .titulo-grande {
+    font-size: 2.5rem; 
+    font-family: 'Montserrat-ExtraBold', sans-serif; 
+    letter-spacing: 12px;
+  }
+
+  .nombre-proyecto {
+    font-size: 0.9rem; 
+    font-family: 'Montserrat-Regular', sans-serif; 
+    letter-spacing: 4px;
+  }
+
+  .pipeline {
+    color:#47c3f8; 
+    font-family: 'Montserrat-ExtraBold', sans-serif; 
+    font-size: 1.2rem; 
+  }
+
+  .sombra {
+    box-shadow: 10px 10px 10px rgb(139, 137, 137) !important;
+  }
+
+  .zoom {
+    transition: transform .2s; 
+  }
+
+  .zoom:hover {
+     transform: scale(1.3);      
+  }
+  
+  .fondo-texto-foto-proyecto{
+      position:absolute;
+      right:0;
+      bottom:10%;
+      background-color:#575656;
+      opacity: 0.5;
+      width: 45%;            
+    }
+
+    .texto-foto-proyecto {
+      font-family: 'Montserrat-ExtraBold', sans-serif ;
+      color:white; 
+      font-size: 1.6rem;
+      letter-spacing: 7px;   
+      padding-top: 3%;   
+    }
+
+    .rectangulo-foto-proyecto{
+      position:absolute;
+      left:0;
+      bottom:8%;
+      background-color: transparent;
+      border: 1px solid;
+      border-color:#3cbcf3;
+      width: 58%; 
+      height: 15%;           
+    }
+
+    .texto-financiacion {
+      font-family: 'Montserrat-Regular'; 
+      font-size: medium; 
+      padding-left:20%; 
+      padding-right: 20%;
+    }
+
+
+  .texto-smart-home {
+    position: absolute; 
+    top: 35%; 
+    left: 24%;
+    transform: translate(-50%, -50%);
+    font-family: 'Montserrat-ExtraBold', sans-serif ;
+    color:black; 
+    font-weight: 800; 
+    font-size: 3rem;
+    line-height: 1.2;
+    letter-spacing: 10px;
+  }
+
+  .texto-smart-home-small {
+    position: absolute; 
+    top: 60%; 
+    left: 24%;
+    transform: translate(-50%, -50%);
+    font-family: 'Montserrat-Light', sans-serif ;
+    color:white; 
+    font-size: 1rem;
+    line-height: 1.5;   
+    letter-spacing: 1px;     
+  }
+
+  .texto-sustentabilidad {
+    position: absolute; 
+    top: 35%; 
+    left: 76%;
+    transform: translate(-50%, -50%);
+    font-family: 'Montserrat-ExtraBold', sans-serif ;
+    color:black; 
+    font-weight: 800; 
+    font-size: 2.7rem;
+    line-height: 1.2;
+    letter-spacing: 10px;
+  }
+
+  .texto-sustentabilidad-small {
+    position: absolute; 
+    top: 70%; 
+    left: 76%;
+    transform: translate(-50%, -50%);
+    font-family: 'Montserrat-Light', sans-serif ;
+    color:white; 
+    font-size: 1rem;
+    line-height: 1.5;   
+    letter-spacing: 1px;     
+  }
+
+  .iconos-contacto {
+    position: absolute; 
+    display: inline-block;
+    top: 35%; 
+    left: 0px;
+    text-align: center;
+    color: white; 
+    font-size: 4rem; 
+    letter-spacing: 20px;
+    width:100%;
+  }
+
+  .icono-contacto-telefono {
+    font-size: 6rem !important;     
+  }
+
+  .pie-de-pagina {
+    font-size: 2rem;
+    color: white;
+  }
+
+
+/* ---------------------------------*/
+
+@media screen and (max-width: 768px) {
+  .logo-sobre-imagen {
+    position: absolute;
+    top: 3%;
+    left: 5%;
+  }
+
+  .logo {
+    width: 45%;
+  }
+
+  .flecha-abajo-sobre-imagen {
+    display:none;
+  }
+
+  .logo_en_navbar {
+    width: 42px;
+  }
+
+  .barra-sobre-imagen {
+    position: absolute;
+    top: 0%;
+    left: 92%;
+    width: 10%;
+    height: 100% ;
+    background-color: black;
+    opacity: 0.8;
+    border: 0px solid transparent;
+  }
+
+  i.fab {
+    font-size: 1.2rem;
+  }
+
+  .fa-instagram:before {
+    position: absolute; 
+    left: 20%; 
+    top: 32%;
+    font-size: 1rem;
+  }
+
+  .bi-youtube:before {
+    color: transparent;
+    position: absolute; 
+    left: 18%; 
+    top: 43%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to right, #5BC4F1,#517FBF);
+    font-size: 1rem;
+    font-style: normal;
+  }
+
+  .fa-facebook:before {
+    color: transparent;
+    position: absolute; 
+    left: 23%; 
+    top: 50%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to right, #5BC4F1,#517FBF);
+    font-size: 1rem;
+  }
+
+  .fa-whatsapp:before {
+    color: transparent;
+    position: absolute; 
+    left: 21%; 
+    top: 59%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to right, #5BC4F1,#517FBF);
+    font-size: 1rem;
+  }
+
+  /*.fa-whatsapp:before {
+    position: absolute; 
+    left: 20%; 
+    bottom: 10%; 
+    font-size: 1.5rem;
+  }
+
+  .hola-texto {
+    color: white;
+    position: absolute; 
+    left: 13%; 
+    bottom: 4%; 
+    font-size: 0.7rem;    
+  }*/
+
+  .sidebar {
+    width: 40%;
+  }
+
+  .sidebar-item {
+        font-size: 0.6rem;
+    }
+
+  .sidebar-burger {
+        font-size: 1.2rem;
+        padding-top:10px;
+        padding-right: 8px;
+    }  
+
+  .letras-sobre-imagen {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    font-size: 0.7rem;
+    letter-spacing: 4px;
+  }
+
+  .titulo-grande {
+    font-size: 1.2rem; 
+    font-family: 'Montserrat-ExtraBold', sans-serif; 
+    letter-spacing: 10px;
+  }
+
+  .nombre-proyecto {
+    display: none;
+  }
+
+  .texto-foto-proyecto {
+    font-size: 0.8rem;
+    letter-spacing: 7px;   
+    padding-top: 5%;   
+  }
+
+  .rectangulo-foto-proyecto{
+    width: 60%; 
+    height: 25%;           
+  }
+
+  
+  .texto-financiacion {
+    font-family: 'Montserrat-Regular'; 
+    font-size: small; 
+    padding-left:20%; 
+    padding-right: 20%;
+  }
+
+  .texto-smart-home {
+    position: absolute; 
+    top: 50%; 
+    left: 24%;
+    font-size: 1.2rem;
+    line-height: 1.2;
+    letter-spacing: 10px;
+  }
+
+  .texto-smart-home-small {
+    font-size: 0rem;   
+  }
+
+  .texto-sustentabilidad {
+    position: absolute; 
+    top: 50%; 
+    left: 76%;    
+    font-size: 1.2rem;
+    letter-spacing: 10px;
+  }
+
+  .texto-sustentabilidad-small {
+    font-size: 0rem;    
+  }
+
+  .iconos-contacto {
+    font-size: 1.5rem;    
+    letter-spacing: 6px;
+  }
+
+  .icono-contacto-telefono {
+    font-size: 2rem !important;     
+  }
+
+  .pie-de-pagina {
+    font-size: 1rem;
+  }
+}
+
+/*
+@media screen and (min-width:537px) and (max-width: 768px) {
+
+    .sidebar-item {
+      font-size: 1.1rem;
+    }
+
+    .sidebar-burger {
+      font-size: 1.3rem;
+      padding:10px 15px;
+    }
+}*/
