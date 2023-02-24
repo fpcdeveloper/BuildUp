@@ -119,11 +119,11 @@
     background-image: linear-gradient(to right, #5BC4F1,#517FBF);
   }
 
-  .bi-youtube:before {
+  .fa-youtube:before {
     color: transparent;
     position: absolute; 
-    left: 13%; 
-    top: 37%;
+    left: 13.5%; 
+    top: 36%;
     background-clip: text;
     -webkit-background-clip: text;
     background-image: linear-gradient(to right, #5BC4F1,#517FBF);
@@ -284,7 +284,7 @@
     letter-spacing: 1px;     
   }
 
-  .iconos-contacto {
+  .linea-iconos-contacto {
     position: absolute; 
     display: inline-block;
     top: 35%; 
@@ -296,15 +296,81 @@
     width:100%;
   }
 
-  .icono-contacto-telefono {
-    font-size: 6rem !important;     
+  .link-icono-contacto {
+    text-decoration: none;
+  }
+
+  .link-icono-contacto:hover {
+    color: white;     
+  }
+
+  .icono-contacto {
+    width:60px;
+    height: 60px;
+  }
+
+  .social-icon {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    color: rgb(64, 179, 224);
+    text-align:center;
+    border-radius: 50%;
+    padding:.5em .3em 0 .3em;
+    background-color:#ffffff;
+    margin:.5em;
+    /*color: rgba(255, 255, 255, 0.8);*/
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
   }
 
   .pie-de-pagina {
-    font-size: 2rem;
-    color: white;
+    background-color: black; 
+    margin-top: 0px;
+    text-align: start;
+    padding: 30px;    
   }
 
+  .link-pie-de-pagina {
+    font-family: 'Montserrat-Regular', sans-serif;
+    color: white;
+    text-decoration: none;
+  }
+
+  .link-pie-de-pagina:hover {
+    color: #47c3f8;
+  }
+
+  .red-pie-de-pagina {
+    font-size: 1.6rem; 
+    color: white;   
+  }
+
+  .red-pie-de-pagina:hover {
+    color: #47c3f8;
+  }
+
+  .pie-1 {
+    padding-left: 5%;
+    padding-bottom:20px;
+  }
+
+  .pie-2 {
+    text-align: end;
+    padding-right: 5%;
+    padding-bottom:20px;
+    font-size: 1.6rem;
+  }
+
+  .texto-copyright {
+    font-family: 'Montserrat-Regular', sans-serif; 
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+  }
 
 /* ---------------------------------*/
 
@@ -349,7 +415,7 @@
     font-size: 1rem;
   }
 
-  .bi-youtube:before {
+  .fa-youtube:before {
     color: transparent;
     position: absolute; 
     left: 18%; 
@@ -365,7 +431,7 @@
     color: transparent;
     position: absolute; 
     left: 23%; 
-    top: 50%;
+    top: 54%;
     background-clip: text;
     -webkit-background-clip: text;
     background-image: linear-gradient(to right, #5BC4F1,#517FBF);
@@ -376,7 +442,7 @@
     color: transparent;
     position: absolute; 
     left: 21%; 
-    top: 59%;
+    top: 63%;
     background-clip: text;
     -webkit-background-clip: text;
     background-image: linear-gradient(to right, #5BC4F1,#517FBF);
@@ -474,17 +540,40 @@
     font-size: 0rem;    
   }
 
-  .iconos-contacto {
+  .linea-iconos-contacto {
     font-size: 1.5rem;    
     letter-spacing: 6px;
   }
 
-  .icono-contacto-telefono {
-    font-size: 2rem !important;     
+  .icono-contacto {
+    width:20px;
+    height: 20px;
   }
 
   .pie-de-pagina {
-    font-size: 1rem;
+    text-align: center;
+  }
+
+  .link-pie-de-pagina {
+    font-size: 0.6rem;    
+  }
+
+  .red-pie-de-pagina {
+    font-size: 1rem; 
+    color: white;   
+  }
+
+  .pie-1 {
+    padding-left: 0%;
+  }
+
+  .pie-2 {
+    text-align: center;
+    padding-right: 0%;    
+  }
+
+  .texto-copyright {
+    font-size: 0.6rem;   
   }
 }
 
