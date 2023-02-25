@@ -153,7 +153,13 @@
 }
     
 .sidebar-item {
-  font-size: 1.2rem;
+  font-size: 1rem;
+}
+
+.sidebar-subitem {
+  font-size: 0.9rem;
+  color:#c5c4c4;
+  margin-left: 25%;
 }
 
 .sidebar-burger {
@@ -308,6 +314,17 @@
     }
 
 
+    .smart-home {
+      animation-name: smart-home-animation;
+      animation: smart-home-animation 3s ;
+      animation-timing-function: ease-out;
+    }   
+
+    @keyframes smart-home-animation {
+      from {left: 25%; opacity:0;}
+      to {left: 0%; opacity: 1;}
+    }
+
   .texto-smart-home {
     position: absolute; 
     top: 35%; 
@@ -331,6 +348,18 @@
     font-size: 1rem;
     line-height: 1.5;   
     letter-spacing: 1px;     
+  }
+
+
+  .sustentabilidad {
+    animation-name: sustentabilidad-animation;
+    animation: sustentabilidad-animation 3s;
+    animation-timing-function: ease-out;
+  }
+  
+  @keyframes sustentabilidad-animation {
+    from {right: 25%; opacity:0;}
+    to {right: 0%; opacity: 1;}
   }
 
   .texto-sustentabilidad {
@@ -540,12 +569,17 @@
   }*/
 
   .sidebar {
-    width: 40%;
+    width: 60%;
   }
 
   .sidebar-item {
-        font-size: 0.6rem;
+      font-size: 0.7rem;
     }
+
+  .sidebar-subitem {
+      font-size: 0.6rem;
+      margin-left: 15%;
+  }
 
   .sidebar-burger {
         font-size: 1.2rem;

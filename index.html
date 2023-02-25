@@ -41,29 +41,29 @@
   <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xlarge w3-display-topright" 
     style="padding:0 12px;"><i class="fa fa-remove"></i>
   </a>
-  <div class="w3-bar-block w3-center">
-      <a href="#home" class="w3-bar-item w3-button w3-text-grey w3-hover-white sidebar-item" 
-            onclick="closeNav()">HOME</a>
+  <div class="w3-bar-block w3-left">
+      <a href="#home" class="w3-bar-item w3-button w3-hover-white sidebar-item" 
+            onclick="closeNav()">&nbsp;INICIO</a>
 
-      <a onclick="myAccFunc()" href="javascript:void(0)" id="myBtn"
-            class="w3-button w3-block w3-text-grey w3-hover-white sidebar-item">
+      <a href="javascript:void(0)" id="myBtn" onclick="myAccFunc()" 
+            class="w3-button w3-block w3-hover-white sidebar-item">
             PROYECTOS <i class="fa fa-caret-down"></i>
       </a>
-      <div id="listaProyectos" class="w3-bar-block w3-hide  w3-medium">
-            <a href="#proyectos" class="w3-bar-item w3-button sidebar-item">Club de Campo Luxury</a>
-            <a href="#proyectos" class="w3-bar-item w3-button sidebar-item">Gardens Classic</a>
-            <a href="#proyectos" class="w3-bar-item w3-button sidebar-item">Gardens Full</a>
-            <a href="#proyectos" class="w3-bar-item w3-button sidebar-item">La Quebrada Classic</a>
-            <a href="#proyectos" class="w3-bar-item w3-button sidebar-item">La Quebrada High</a>
-            <a href="#proyectos" class="w3-bar-item w3-button sidebar-item">Las Rosas Basis</a>
-            <a href="#proyectos" class="w3-bar-item w3-button sidebar-item">Las Rosas Locales</a>
-            <a href="#proyectos" class="w3-bar-item w3-button sidebar-item">Pinar Basis</a>
+      <div id="listaProyectos" class="w3-bar-block w3-hide">
+            <a href="#proyectos" class="w3-bar-item w3-button sidebar-subitem">CLUB DE CAMPO LUXURY</a>
+            <a href="#proyectos" class="w3-bar-item w3-button sidebar-subitem">GARDENS CLASSIC</a>
+            <a href="#proyectos" class="w3-bar-item w3-button sidebar-subitem">GARDENS FULL</a>
+            <a href="#proyectos" class="w3-bar-item w3-button sidebar-subitem">LA QUEBRADA CLASSIC</a>
+            <a href="#proyectos" class="w3-bar-item w3-button sidebar-subitem">LA QUEBRADA HIGH</a>
+            <a href="#proyectos" class="w3-bar-item w3-button sidebar-subitem">LAS ROSAS BASIS</a>
+            <a href="#proyectos" class="w3-bar-item w3-button sidebar-subitem">LAS ROSAS LOCALES</a>
+            <a href="#proyectos" class="w3-bar-item w3-button sidebar-subitem">PINAR BASIS</a>
       </div>
-      <a href="#financiacion" class="w3-bar-item w3-button w3-text-grey w3-hover-white sidebar-item" 
-            onclick="closeNav()">FINANCIACI&Oacute;N
+      <a href="#financiacion" class="w3-bar-item w3-button w3-hover-white sidebar-item" 
+            onclick="closeNav()">&nbsp;FINANCIACI&Oacute;N
       </a>
-      <a href="#contacto" class="w3-bar-item w3-button w3-text-grey w3-hover-white sidebar-item" 
-            onclick="closeNav()">CONTACTO
+      <a href="#contacto" class="w3-bar-item w3-button w3-hover-white sidebar-item" 
+            onclick="closeNav()">&nbsp;CONTACTO
       </a>
   </div>
 </nav>        
@@ -150,7 +150,7 @@
   <!-- FLECHA HACIA ABAJO SOBRE CAROUSEL -->           
   <div class="flecha-abajo-sobre-imagen">
     <a href="#proyectos">
-        <i class="bi bi-chevron-double-down" style="color: #47c3f8; font-size: 2rem;"></i>
+        <i class="bi bi-chevron-double-down" style="color: #47c3f8; font-size: 2rem; font-weight: bold;"></i>
     </a>
   </div>  
 
@@ -464,10 +464,9 @@
   </div>
 
    <!-- SMART HOME Y SUSTENTABILIDAD -->
-  <div data-aos="fade-left"  
-    data-aos-offset="500"
-    data-aos-duration="1500"
-  style="position: relative; margin-top: 100px; margin-bottom: 0;">    
+  <!--<div class="smart-home" style="position: relative; margin-top: 100px; margin-bottom: 0;">-->
+  <div data-aos="fade-left" data-aos-offset="500" data-aos-duration="1500" 
+  style="position: relative; margin-top: 100px; margin-bottom: 0;">          
       <img src="images/home/SmartHome.png" style="width:100%; height: auto;">   
       <div class="texto-smart-home text-center">SMART<br>HOME</div>  
       <div class="texto-smart-home-small text-center">
@@ -478,9 +477,8 @@
           LAS CASAS B UP.
       </div>    
   </div>
-  <div data-aos="fade-right"  
-  data-aos-offset="500"
-  data-aos-duration="1500" style="position: relative; margin-top: 0;">    
+  <div data-aos="fade-right" data-aos-offset="500" data-aos-duration="1500" 
+  style="position: relative; margin-top: 0;">    
       <img src="images/home/Sustentabilidad.png" style="width:100%; height: auto;">
       <div class="texto-sustentabilidad text-center">SUS<BR>TENTA<BR>BILI<BR>DAD</div>  
       <div class="texto-sustentabilidad-small text-center" style="width: max-content;">
