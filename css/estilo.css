@@ -561,6 +561,30 @@
     letter-spacing: 4px;
   }
 
+  .desarrollamos {  
+    animation-name: desarrollamos-animation;
+    animation-duration: 4s;
+    animation: desarrollamos-animation 5s;
+    animation-timing-function: ease-out;
+  }
+  
+  @keyframes desarrollamos-animation {
+    from {top: 35%; color:transparent; font-size: 0.4rem}
+    to {top: 45%; color:white; font-size: 0.7rem;}
+  }
+
+  .cuidamos {
+    animation-name: cuidamos-animation;
+    animation-duration: 4s;
+    animation: cuidamos-animation 5s;
+    animation-timing-function: ease-out;
+  }
+  
+  @keyframes cuidamos-animation {
+    from {left: 15%; color:transparent; font-size: 0.4rem}
+    to {left: 5%; color:white; font-size: 0.7rem}
+  }
+
   .titulo-grande {
     font-size: 1.2rem; 
     font-family: 'Montserrat-ExtraBold', sans-serif; 
