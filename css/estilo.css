@@ -53,7 +53,81 @@
   letter-spacing: 16px;
 }
 
-.texto-sobre-imagen {
+.desarrollamos {  
+  animation-name: desarrollamos-animation;
+  animation-duration: 4s;
+  animation: desarrollamos-animation 5s;
+  animation-timing-function: ease-out;
+}
+
+@keyframes desarrollamos-animation {
+  from {top: 35%; color:transparent; font-size: 1.8rem}
+  to {top: 45%; color:white; font-size: 2.3rem;}
+}
+
+.creamos {  
+  animation-name: creamos-animation;
+  animation-duration: 4s;
+  animation: creamos-animation 5s;
+  animation-timing-function: ease-out;
+}
+
+@keyframes creamos-animation {
+  from {left: 20%; top:35%; color:transparent;}
+  to {left: 5%; color:white;}
+}
+
+.materializamos {
+  animation-name: materializamos-animation;
+  animation-duration: 4s;
+  animation: materializamos-animation 4s;
+  animation-timing-function: ease-out;
+}
+
+@keyframes materializamos-animation {
+  from {top: 55%; color:transparent;}
+  to {top: 45%; color:white;}
+}
+
+.cuidamos {
+  animation-name: cuidamos-animation;
+  animation-duration: 4s;
+  animation: cuidamos-animation 5s;
+  animation-timing-function: ease-out;
+}
+
+@keyframes cuidamos-animation {
+  from {left: 15%; color:transparent; font-size: 1.8rem}
+  to {left: 5%; color:white; font-size: 2.3rem}
+}
+
+.confiamos {
+  animation-name: confiamos-animation;
+  animation-duration: 4s;
+  animation: confiamos-animation 5s;
+  animation-timing-function: ease-out;
+}
+
+@keyframes confiamos-animation {
+  from {top: 35%; color:transparent;}
+  to {top: 45%; color:white;}
+}
+
+.proyectamos {
+  animation-name: proyectamos-animation;
+  animation-duration: 4s;
+  animation: proyectamos-animation 5s;
+  animation-timing-function: ease-out;
+}
+
+@keyframes proyectamos-animation {
+  from {left: 5%; color:transparent;}
+  to {left: 5%; color:white;}
+}
+
+
+
+/*.texto-sobre-imagen {
   position: absolute;
   top: 0%;
   left: 0%;
@@ -61,7 +135,7 @@
   background-color: gray;
   opacity: 0.5;
   border: 0px solid transparent;
-}
+}*/
 
 .barra-sobre-imagen {
   position: absolute;
