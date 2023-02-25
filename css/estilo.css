@@ -332,6 +332,7 @@
     margin-top: 0px;
     text-align: start;
     padding: 30px;    
+    --bs-gutter-x: 0rem;
   }
 
   .link-pie-de-pagina {

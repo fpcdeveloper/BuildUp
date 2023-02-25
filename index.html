@@ -9,7 +9,8 @@
         crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">  
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/w3.css">  
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/w3.css">      
     <link rel="stylesheet" href="css/estilo.css">
     <link rel="icon" href="images/favicon-32x32.png">  
     
@@ -77,8 +78,8 @@
   <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
-          <img src="images/home/Foto_01_gris.png" class="d-block w-100">
-          <div class="letras-sobre-imagen">DESARROLLAMOS</div>
+          <img src="images/home/Foto_01_gris.png" class="d-block w-100" >
+          <div data-aos="fade-zoom-in" data-aos-duration="3000" class="letras-sobre-imagen">DESARROLLAMOS</div>
           <div class="barra-sobre-imagen text-center">
               <a href="https://www.instagram.com/buildupmza/"><i class="fab fa-instagram"></i></a> 
               <a href="https://www.youtube.com/channel/UCOyaebWOUS3o5rt7Ks-7dZQ"><i class="fab fa-youtube"></i></a>           
@@ -89,9 +90,9 @@
               </a>-->
           </div>
       </div>
-      <div class="carousel-item">
+      <div class="carousel-item ">
           <img src="images/home/Foto_03_gris.png" class="d-block w-100">
-          <div class="letras-sobre-imagen">CREAMOS</div>
+          <div data-aos="fade-zoom-in" data-aos-duration="3000" class="letras-sobre-imagen aos-init aos-animate">CREAMOS</div>
           <div class="barra-sobre-imagen text-center">
             <a href="https://www.instagram.com/buildupmza/"><i class="fab fa-instagram"></i></a> 
             <a href="https://www.youtube.com/channel/UCOyaebWOUS3o5rt7Ks-7dZQ"><i class="fab fa-youtube"></i></a>           
@@ -101,7 +102,7 @@
       </div>
       <div class="carousel-item">
           <img src="images/home/Foto_04_gris.png" class="d-block w-100">
-          <div class="letras-sobre-imagen">MATERIALIZAMOS</div>
+          <div data-aos="zoom-in-up" data-aos-duration="1500" class="letras-sobre-imagen">MATERIALIZAMOS</div>
           <div class="barra-sobre-imagen text-center">
             <a href="https://www.instagram.com/buildupmza/"><i class="fab fa-instagram"></i></a> 
             <a href="https://www.youtube.com/channel/UCOyaebWOUS3o5rt7Ks-7dZQ"><i class="fab fa-youtube"></i></a>           
@@ -466,7 +467,10 @@
   </div>
 
    <!-- SMART HOME Y SUSTENTABILIDAD -->
-  <div class="mb-0" style="position: relative; margin-top: 100px;">    
+  <div data-aos="fade-left"  
+    data-aos-offset="500"
+    data-aos-duration="1500"
+  style="position: relative; margin-top: 100px; margin-bottom: 0;">    
       <img src="images/home/SmartHome.png" style="width:100%; height: auto;">   
       <div class="texto-smart-home text-center">SMART<br>HOME</div>  
       <div class="texto-smart-home-small text-center">
@@ -477,7 +481,9 @@
           LAS CASAS B UP.
       </div>    
   </div>
-  <div class="mt-0" style="position: relative;"">    
+  <div data-aos="fade-right"  
+  data-aos-offset="500"
+  data-aos-duration="1500" style="position: relative; margin-top: 0;">    
       <img src="images/home/Sustentabilidad.png" style="width:100%; height: auto;">
       <div class="texto-sustentabilidad text-center">SUS<BR>TENTA<BR>BILI<BR>DAD</div>  
       <div class="texto-sustentabilidad-small text-center" style="width: max-content;">
@@ -555,6 +561,11 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
   integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
   crossorigin="anonymous">
+</script>
+
+<script src="js/aos.js"></script>
+<script>
+  AOS.init();
 </script>
 
 <!-- para la navbar -->
