@@ -560,29 +560,30 @@
     font-size: 0.7rem;
     letter-spacing: 4px;
   }
-
-  .desarrollamos {  
-    animation-name: desarrollamos-animation;
-    animation-duration: 4s;
-    animation: desarrollamos-animation 5s;
-    animation-timing-function: ease-out;
-  }
-  
+ 
   @keyframes desarrollamos-animation {
-    from {top: 35%; color:transparent; font-size: 0.4rem}
-    to {top: 45%; color:white; font-size: 0.7rem;}
+    from {top: 40%; color:transparent; font-size: 0.4rem}
+    to {top: 50%; color:white; font-size: 0.7rem;}
   }
 
-  .cuidamos {
-    animation-name: cuidamos-animation;
-    animation-duration: 4s;
-    animation: cuidamos-animation 5s;
-    animation-timing-function: ease-out;
+  @keyframes creamos-animation {
+    from {left: 20%; top:40%; color:transparent;}
+    to {left: 5%; top:50%; color:white;}
   }
-  
+ 
   @keyframes cuidamos-animation {
     from {left: 15%; color:transparent; font-size: 0.4rem}
     to {left: 5%; color:white; font-size: 0.7rem}
+  }
+
+  @keyframes materializamos-animation {
+    from {top: 60%; color:transparent;}
+    to {top: 50%; color:white;}
+  }
+
+  @keyframes confiamos-animation {
+    from {top: 40%; color:transparent;}
+    to {top: 50%; color:white;}
   }
 
   .titulo-grande {
