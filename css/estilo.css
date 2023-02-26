@@ -281,7 +281,7 @@
   .fondo-texto-foto-proyecto{
       position:absolute;
       right:0;
-      bottom:0%;
+      bottom:0;
       background-color:#575656;
       opacity: 0.5;
       width: 100%;            
@@ -631,9 +631,11 @@
   }
 
   .texto-foto-proyecto {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     letter-spacing: 7px;   
-    padding-top: 5%;   
+    padding-top: 2%;   
+    padding-bottom: 0; 
+    margin-bottom:2%;  
   }
 
   .rectangulo-foto-proyecto{
