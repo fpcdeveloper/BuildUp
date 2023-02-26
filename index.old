@@ -175,272 +175,285 @@
         LA QUEBRADA HIGH <font class="pipeline">|</font> 
         LAS ROSAS BASIS <font class="pipeline">|</font> 
         LAS ROSAS LOCALES <font class="pipeline">|</font>  
-        </b>
-    </p>
+        </b></p>
 
     <!-- fotos grandes -->
-    <div id="carouselProyectos" class="carousel slide carousel-fade">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <div style="position: relative;">
-                    <img src="images/proyectos/CCampoLuxury_01.jpg" class="d-block w-100">
-                    <div class="fondo-texto-foto-proyecto">
-                        <p class="texto-foto-proyecto">CLUB DE CAMPO LUXURY</p>
-                    </div>
-                </div>
-                <div class="row" style="display: flex; align-items: center; margin-top: 5%;">              
-                    <div class="col" style="width: 20%; padding-left: 1%; padding-right: 2%;">
-                        <img class="foto_small"
-                        src="images/proyectos/CCampoLuxury_02_small.jpg" style="width:100%; cursor:pointer;">
-                    </div>
-                    <div class="col" style="width: 20%; padding-left: 2%; padding-right: 4%;">
-                        <img class="foto_small "
-                        src="images/proyectos/CCampoLuxury_03_small.jpg" style="width:100%; cursor:pointer;">
-                    </div>
-                    <div class="col" style="width: 20%; padding-left: 1%; padding-right: 3%;">
-                        <img class="foto_small " 
-                        src="images/proyectos/CCampoLuxury_04_small.jpg" style="width:100%; cursor:pointer;">
-                    </div> 
-                    <div class="col" style="width: 20%; padding-left: 2%; padding-right: 3%;">
-                        <img class="foto_small "
-                        src="images/proyectos/CCampoLuxury_05_small.jpg" style="width:100%; cursor:pointer;">
-                    </div>
-                    <div class="col" style="width: 20%; padding-left: 3%; padding-right: 1%;">
-                        <img class="foto_small "
-                        src="images/proyectos/CCampoLuxury_06_small.jpg"  style="width:100%; cursor:pointer;">
-                    </div>                        
-                </div>
-            </div>
 
-            <div class="carousel-item ">
-                <div style="position: relative;">
-                    <img src="images/proyectos/GardensClassic_01.jpg" class="d-block w-100">     
-                    <div class="fondo-texto-foto-proyecto">
-                        <p class="texto-foto-proyecto">GARDENS CLASSIC</p>
-                    </div>   
-                </div>        
-                <div class="row" style="display: flex; align-items: center; margin-top: 5%;">              
-                    <div class="col" style="width: 20%; padding-left: 1%; padding-right: 2%;">
-                        <img class="foto_small"
-                        src="images/proyectos/GardensClassic_02_small.jpg" style="width:100%; cursor:pointer;">
-                    </div>
-                    <div class="col" style="width: 20%; padding-left: 2%; padding-right: 4%;">
-                        <img class="foto_small "
-                        src="images/proyectos/GardensClassic_03_small.jpg" style="width:100%; cursor:pointer;">
-                    </div>
-                    <div class="col" style="width: 20%; padding-left: 1%; padding-right: 3%;">
-                        <img class="foto_small " 
-                        src="images/proyectos/GardensClassic_04_small.jpg" style="width:100%; cursor:pointer;">
-                    </div> 
-                    <div class="col" style="width: 20%; padding-left: 2%; padding-right: 3%;">
-                        <img class="foto_small "
-                        src="images/proyectos/GardensClassic_05_small.jpg" style="width:100%; cursor:pointer;">
-                    </div>
-                    <div class="col" style="width: 20%; padding-left: 3%; padding-right: 1%;">
-                        <img class="foto_small "
-                        src="images/proyectos/GardensClassic_06_small.jpg"  style="width:100%; cursor:pointer;">
-                    </div>                        
-                </div>                
-            </div>
-
-            <div class="carousel-item">
-                <div style="position: relative;">
-                    <img src="images/proyectos/GardensFull_01.jpg" class="d-block w-100">     
-                    <div class="fondo-texto-foto-proyecto">
-                        <p class="texto-foto-proyecto">GARDENS FULL</p>
-                    </div>   
-                </div> 
-                <div class="row" style="display: flex; align-items: center; margin-top: 5%;">              
-                  <div class="col" style="width: 20%; padding-left: 1%; padding-right: 2%;">
-                      <img class="foto_small"
-                      src="images/proyectos/GardensFull_02_small.jpg" style="width:100%; cursor:pointer;">
-                  </div>
-                  <div class="col" style="width: 20%; padding-left: 2%; padding-right: 4%;">
-                      <img class="foto_small "
-                      src="images/proyectos/GardensFull_03_small.jpg" style="width:100%; cursor:pointer;">
-                  </div>
-                  <div class="col" style="width: 20%; padding-left: 1%; padding-right: 3%;">
-                      <img class="foto_small " 
-                      src="images/proyectos/GardensFull_04_small.jpg" style="width:100%; cursor:pointer;">
-                  </div> 
-                  <div class="col" style="width: 20%; padding-left: 2%; padding-right: 3%;">
-                      <img class="foto_small "
-                      src="images/proyectos/GardensFull_05_small.jpg" style="width:100%; cursor:pointer;">
-                  </div>
-                  <div class="col" style="width: 20%; padding-left: 3%; padding-right: 1%;">
-                      <img class="foto_small "
-                      src="images/proyectos/GardensFull_06_small.jpg"  style="width:100%; cursor:pointer;">
-                  </div>                        
-              </div>                  
-            </div>
-
-            <div class="carousel-item">
-              <div style="position: relative;">
-                  <img src="images/proyectos/LaQuebradaClassic_01.jpg" class="d-block w-100">     
-                  <div class="fondo-texto-foto-proyecto">
-                      <p class="texto-foto-proyecto">LA QUEBRADA CLASSIC</p>
-                  </div>   
-              </div> 
-              <div class="row" style="display: flex; align-items: center; margin-top: 5%;">              
-                <div class="col" style="width: 20%; padding-left: 1%; padding-right: 2%;">
-                    <img class="foto_small"
-                    src="images/proyectos/LaQuebradaClassic_02_small.jpg" style="width:100%; cursor:pointer;">
-                </div>
-                <div class="col" style="width: 20%; padding-left: 2%; padding-right: 4%;">
-                    <img class="foto_small "
-                    src="images/proyectos/LaQuebradaClassic_03_small.jpg" style="width:100%; cursor:pointer;">
-                </div>
-                <div class="col" style="width: 20%; padding-left: 1%; padding-right: 3%;">
-                    <img class="foto_small " 
-                    src="images/proyectos/LaQuebradaClassic_04_small.jpg" style="width:100%; cursor:pointer;">
-                </div> 
-                <div class="col" style="width: 20%; padding-left: 2%; padding-right: 3%;">
-                    <img class="foto_small "
-                    src="images/proyectos/LaQuebradaClassic_05_small.jpg" style="width:100%; cursor:pointer;">
-                </div>
-                <div class="col" style="width: 20%; padding-left: 3%; padding-right: 1%;">
-                    <img class="foto_small "
-                    src="images/proyectos/LaQuebradaClassic_06_small.jpg" style="width:100%; cursor:pointer;">
-                </div>                        
-              </div>                  
-            </div>
-
-            <div class="carousel-item">
-              <div style="position: relative;">
-                  <img src="images/proyectos/PinarBasis_01.jpg" class="d-block w-100">     
-                  <div class="fondo-texto-foto-proyecto">
-                      <p class="texto-foto-proyecto">PINAR BASIS</p>
-                  </div>   
-              </div> 
-              <div class="row" style="display: flex; align-items: center; margin-top: 5%;">              
-                <div class="col" style="width: 20%; padding-left: 1%; padding-right: 2%;">
-                    <img class="foto_small"
-                    src="images/proyectos/PinarBasis_02_small.jpg" style="width:100%; cursor:pointer;">
-                </div>
-                <div class="col" style="width: 20%; padding-left: 2%; padding-right: 4%;">
-                    <img class="foto_small "
-                    src="images/proyectos/PinarBasis_03_small.jpg" style="width:100%; cursor:pointer;">
-                </div>
-                <div class="col" style="width: 20%; padding-left: 1%; padding-right: 3%;">
-                    <img class="foto_small " 
-                    src="images/proyectos/PinarBasis_04_small.jpg" style="width:100%; cursor:pointer;">
-                </div> 
-                <div class="col" style="width: 20%; padding-left: 2%; padding-right: 3%;">
-                    <img class="foto_small "
-                    src="images/proyectos/PinarBasis_05_small.jpg" style="width:100%; cursor:pointer;">
-                </div>
-                <div class="col" style="width: 20%; padding-left: 3%; padding-right: 1%;">
-                    <img class="foto_small "
-                    src="images/proyectos/PinarBasis_06_small.jpg" style="width:100%; cursor:pointer;">
-                </div>                        
-              </div>                  
-            </div>
-
-            <div class="carousel-item">
-              <div style="position: relative;">
-                  <img src="images/proyectos/LaQuebradaHigh_01.jpg" class="d-block w-100">     
-                  <div class="fondo-texto-foto-proyecto">
-                      <p class="texto-foto-proyecto">LA QUEBRADA HIGH</p>
-                  </div>   
-              </div> 
-              <div class="row" style="display: flex; align-items: center; margin-top: 5%;">              
-                <div class="col" style="width: 20%; padding-left: 1%; padding-right: 2%;">
-                    <img class="foto_small"
-                    src="images/proyectos/LaQuebradaHigh_02_small.jpg" style="width:100%; cursor:pointer;">
-                </div>
-                <div class="col" style="width: 20%; padding-left: 2%; padding-right: 4%;">
-                    <img class="foto_small "
-                    src="images/proyectos/LaQuebradaHigh_03_small.jpg" style="width:100%; cursor:pointer;">
-                </div>
-                <div class="col" style="width: 20%; padding-left: 1%; padding-right: 3%;">
-                    <img class="foto_small " 
-                    src="images/proyectos/LaQuebradaHigh_04_small.jpg" style="width:100%; cursor:pointer;">
-                </div> 
-                <div class="col" style="width: 20%; padding-left: 2%; padding-right: 3%;">
-                    <img class="foto_small "
-                    src="images/proyectos/LaQuebradaHigh_05_small.jpg" style="width:100%; cursor:pointer;">
-                </div>
-                <div class="col" style="width: 20%; padding-left: 3%; padding-right: 1%;">
-                    <img class="foto_small "
-                    src="images/proyectos/LaQuebradaHigh_06_small.jpg" style="width:100%; cursor:pointer;">
-                </div>                        
-              </div>                  
-            </div>
-
-            <div class="carousel-item">
-              <div style="position: relative;">
-                  <img src="images/proyectos/LaQuebradaHigh_01.jpg" class="d-block w-100">     
-                  <div class="fondo-texto-foto-proyecto">
-                      <p class="texto-foto-proyecto">LAS ROSAS BASIS</p>
-                  </div>   
-              </div> 
-              <div class="row" style="display: flex; align-items: center; margin-top: 5%;">              
-                <div class="col" style="width: 20%; padding-left: 1%; padding-right: 2%;">
-                    <img class="foto_small"
-                    src="images/proyectos/LasRosasBasis_02_small.jpg" style="width:100%; cursor:pointer;">
-                </div>
-                <div class="col" style="width: 20%; padding-left: 2%; padding-right: 4%;">
-                    <img class="foto_small "
-                    src="images/proyectos/LasRosasBasis_03_small.jpg" style="width:100%; cursor:pointer;">
-                </div>
-                <div class="col" style="width: 20%; padding-left: 1%; padding-right: 3%;">
-                    <img class="foto_small " 
-                    src="images/proyectos/LasRosasBasis_04_small.jpg" style="width:100%; cursor:pointer;">
-                </div> 
-                <div class="col" style="width: 20%; padding-left: 2%; padding-right: 3%;">
-                    <img class="foto_small "
-                    src="images/proyectos/LasRosasBasis_05_small.jpg" style="width:100%; cursor:pointer;">
-                </div>
-                <div class="col" style="width: 20%; padding-left: 3%; padding-right: 1%;">
-                    <img class="foto_small "
-                    src="images/proyectos/LasRosasBasis_06_small.jpg" style="width:100%; cursor:pointer;">
-                </div>                        
-              </div>                  
-            </div>
-
-            <div class="carousel-item">
-              <div style="position: relative;">
-                  <img src="images/proyectos/LasRosasLocales_01.jpg" class="d-block w-100">     
-                  <div class="fondo-texto-foto-proyecto">
-                      <p class="texto-foto-proyecto">LAS ROSAS LOCALES</p>
-                  </div>   
-              </div> 
-              <div class="row" style="display: flex; align-items: center; margin-top: 5%;">              
-                <div class="col" style="width: 20%; padding-left: 1%; padding-right: 2%;">
-                    <img class="foto_small"
-                    src="images/proyectos/LasRosasLocales_02_small.jpg" style="width:100%; cursor:pointer;">
-                </div>
-                <div class="col" style="width: 20%; padding-left: 2%; padding-right: 4%;">
-                    <img class="foto_small "
-                    src="images/proyectos/LasRosasLocales_03_small.jpg" style="width:100%; cursor:pointer;">
-                </div>
-                <div class="col" style="width: 20%; padding-left: 1%; padding-right: 3%;">
-                    <img class="foto_small " 
-                    src="images/proyectos/LasRosasLocales_04_small.jpg" style="width:100%; cursor:pointer;">
-                </div> 
-                <div class="col" style="width: 20%; padding-left: 2%; padding-right: 3%;">
-                    <img class="foto_small "
-                    src="images/proyectos/LasRosasLocales_05_small.jpg" style="width:100%; cursor:pointer;">
-                </div>
-                <div class="col" style="width: 20%; padding-left: 3%; padding-right: 1%;">
-                    <img class="foto_small "
-                    src="images/proyectos/LasRosasLocales_06_small.jpg" style="width:100%; cursor:pointer;">
-                </div>                        
-              </div>                  
-            </div> 
-
+    <div class="w3-display-container mySlides">
+        <a href="#proyectos">
+            <img src="images/proyectos/GardensClassic_01.jpg" style="width:100%;margin-bottom:-6px;">
+        </a>    
+        <div class="rectangulo-foto-proyecto"></div>
+        <div class="fondo-texto-foto-proyecto">
+            <p class="texto-foto-proyecto">GARDENS CLASSIC</p>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselProyectos" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Anterior</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselProyectos" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Siguiente</span>
-        </button>
-    </div>  <!-- fin carrousell -->            
-  
-  </div> <!-- fin proyectos -->
+    </div>
+    <div class="w3-display-container mySlides">
+        <a href="#">
+            <img src="images/proyectos/GardensFull_01.jpg" style="width:100%;margin-bottom:-6px;">
+        </a>    
+        <div class="rectangulo-foto-proyecto"></div>
+        <div class="fondo-texto-foto-proyecto">
+            <p class="texto-foto-proyecto">GARDENS FULL</p>
+        </div>
+    </div>
+    <div class="w3-display-container mySlides">
+        <a href="#proyectos">
+            <img src="images/proyectos/CCampoLuxury_01.jpg" style="width:100%;margin-bottom:-6px;">
+        </a>
+        <div class="rectangulo-foto-proyecto"></div>
+        <div class="fondo-texto-foto-proyecto">
+            <p class="texto-foto-proyecto">LUXURY</p>
+        </div>
+    </div>    
+    <div class="w3-display-container mySlides">
+        <a href="#proyectos">
+            <img src="images/proyectos/LaQuebradaClassic_01.jpg" style="width:100%;margin-bottom:-6px;">
+        </a>
+        <div class="rectangulo-foto-proyecto"></div>
+        <div class="fondo-texto-foto-proyecto">
+            <p class="texto-foto-proyecto">LA QUEBRADA CLASSIC</p>
+        </div>
+    </div> 
+    <div class="w3-display-container mySlides">
+        <a href="#proyectos">
+            <img src="images/proyectos/LaQuebradaHigh_01.jpg" style="width:100%;margin-bottom:-6px;">
+        </a>
+        <div class="rectangulo-foto-proyecto"></div>
+        <div class="fondo-texto-foto-proyecto">
+            <p class="texto-foto-proyecto">LA QUEBRADA HIGH</p>
+        </div>
+    </div> 
+    <div class="w3-display-container mySlides">
+        <a href="#proyectos">
+          <img src="images/proyectos/LasRosasBasis_01.jpg" style="width:100%;margin-bottom:-6px;">
+        </a>
+        <div class="rectangulo-foto-proyecto"></div>
+        <div class="fondo-texto-foto-proyecto">
+            <p class="texto-foto-proyecto">LAS ROSAS BASIS</p>
+        </div>
+    </div> 
+    <div class="w3-display-container mySlides">
+        <a href="#proyectos">
+          <img src="images/proyectos/LasRosasLocales_01.jpg" style="width:100%;margin-bottom:-6px;">
+        </a>
+        <div class="rectangulo-foto-proyecto"></div>
+        <div class="fondo-texto-foto-proyecto">
+            <p class="texto-foto-proyecto">LAS ROSAS LOCALES</p>
+        </div>
+    </div>             
+    <div class="w3-display-container mySlides">
+        <a href="#proyectos">
+            <img src="images/proyectos/PinarBasis_01.jpg" style="width:100%;margin-bottom:-6px;">
+        </a>
+        <div class="rectangulo-foto-proyecto"></div>
+        <div class="fondo-texto-foto-proyecto">
+            <p class="texto-foto-proyecto">PINAR</p>
+        </div>
+    </div>
+    <div class="w3-display-container mySlides">
+      <a href="#proyectos">
+          <img src="images/proyectos/GardensClassic_01.jpg" style="width:100%;margin-bottom:-6px;">
+      </a>    
+      <div class="rectangulo-foto-proyecto"></div>
+      <div class="fondo-texto-foto-proyecto">
+          <p class="texto-foto-proyecto">GARDENS CLASSIC</p>
+      </div>
+    </div>
+    <div class="w3-display-container mySlides">
+        <a href="#proyectos">
+            <img src="images/proyectos/GardensFull_01.jpg" style="width:100%;margin-bottom:-6px;">
+        </a>    
+        <div class="rectangulo-foto-proyecto"></div>
+        <div class="fondo-texto-foto-proyecto">
+            <p class="texto-foto-proyecto">GARDENS FULL</p>
+        </div>
+    </div>   
+    <div class="w3-display-container mySlides">
+      <a href="#proyectos">
+          <img src="images/proyectos/CCampoLuxury_01.jpg" style="width:100%;margin-bottom:-6px;">
+      </a>
+      <div class="rectangulo-foto-proyecto"></div>
+      <div class="fondo-texto-foto-proyecto">
+          <p class="texto-foto-proyecto">LUXURY</p>
+      </div>
+    </div>    
+    <div class="w3-display-container mySlides">
+        <a href="#proyectos">
+            <img src="images/proyectos/LaQuebradaClassic_01.jpg" style="width:100%;margin-bottom:-6px;">
+        </a>
+        <div class="rectangulo-foto-proyecto"></div>
+        <div class="fondo-texto-foto-proyecto">
+            <p class="texto-foto-proyecto">LA QUEBRADA CLASSIC</p>
+        </div>
+    </div> 
+    <div class="w3-display-container mySlides">
+        <a href="#proyectos">
+            <img src="images/proyectos/LaQuebradaHigh_01.jpg" style="width:100%;margin-bottom:-6px;">
+        </a>
+        <div class="rectangulo-foto-proyecto"></div>
+        <div class="fondo-texto-foto-proyecto">
+            <p class="texto-foto-proyecto">LA QUEBRADA HIGH</p>
+        </div>
+    </div> 
+    <div class="w3-display-container mySlides">
+        <a href="#proyectos">
+          <img src="images/proyectos/LasRosasBasis_01.jpg" style="width:100%;margin-bottom:-6px;">
+        </a>
+        <div class="rectangulo-foto-proyecto"></div>
+        <div class="fondo-texto-foto-proyecto">
+            <p class="texto-foto-proyecto">LAS ROSAS BASIS</p>
+        </div>
+    </div> 
+    <div class="w3-display-container mySlides">
+        <a href="#proyectos">
+          <img src="images/proyectos/LasRosasLocales_01.jpg" style="width:100%;margin-bottom:-6px;">
+        </a>
+        <div class="rectangulo-foto-proyecto"></div>
+        <div class="fondo-texto-foto-proyecto">
+            <p class="texto-foto-proyecto">LAS ROSAS LOCALES</p>
+        </div>
+    </div>   
+  </div>
+
+  <!-- fotos small -->
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <!-- primer item carousel -->
+      <div class="carousel-item active text-center">
+        <div class="row" style="display: flex; align-items: center; padding-left: 10%; padding-right: 10%; 
+            padding-top: 4%; padding-bottom: 2%;">              
+            <div class="col" style="width: 20%; padding-left: 1%; padding-right: 2%;">
+                <img class="foto_small"
+                src="images/proyectos/GardensClassic_01_small.jpg"  style="width:100%; cursor:pointer;"
+                onclick="currentDiv(1)"
+                onmouseover="this.src='images/proyectos/GardensClassic_01_txt.png';"
+                onmouseout="this.src='images/proyectos/GardensClassic_01_small.jpg';">
+            </div>
+            <div class="col" style="width: 20%; padding-left: 2%; padding-right: 4%;">
+                <img class="foto_small "
+                src="images/proyectos/GardensFull_01_small.jpg" style="width:100%; cursor:pointer;"
+                onclick="currentDiv(2)"
+                onmouseover="this.src='images/proyectos/GardensFull_01_txt.png';"
+                onmouseout="this.src='images/proyectos/GardensFull_01_small.jpg';">
+            </div>
+            <div class="col" style="width: 20%; padding-left: 1%; padding-right: 3%;">
+                <img class="foto_small " 
+                src="images/proyectos/CCampoLuxury_01_txt.png" style="width:100%; cursor:pointer;"
+                onclick="currentDiv(3)" 
+                onmouseover="this.src='images/proyectos/CCampoLuxury_01_txt.png';"
+                onmouseout="this.src='images/proyectos/CCampoLuxury_01_small.jpg';">
+            </div> 
+            <div class="col" style="width: 20%; padding-left: 2%; padding-right: 3%;">
+                <img class="foto_small "
+                src="images/proyectos/LaQuebradaClassic_01_small.jpg"  style="width:100%; cursor:pointer;"
+                onclick="currentDiv(4)"
+                onmouseover="this.src='images/proyectos/LaQuebradaClassic_01_txt.png';"
+                onmouseout="this.src='images/proyectos/LaQuebradaClassic_01_small.jpg';">
+            </div>
+            <div class="col" style="width: 20%; padding-left: 3%; padding-right: 1%;">
+                <img class="foto_small "
+                src="images/proyectos/LaQuebradaHigh_01_small.jpg"  style="width:100%; cursor:pointer;"
+                onclick="currentDiv(5)"
+                onmouseover="this.src='images/proyectos/LaQuebradaHigh_01_txt.png';"
+                onmouseout="this.src='images/proyectos/LaQuebradaHigh_01_small.jpg';">
+            </div>                        
+      </div>
+    </div>
+    <!-- segundo item carousel -->
+    <div class="carousel-item  text-center">
+        <div class="row" style="display: flex; align-items: center; padding-left: 10%; padding-right: 10%; 
+            padding-top: 4%; padding-bottom: 2%;">   
+            <div class="col" style="width: 20%; padding-left: 1%; padding-right: 2%;">
+                <img class="foto_small"
+                src="images/proyectos/LasRosasBasis_01_small.jpg"  style="width:100%; cursor:pointer;"
+                onclick="currentDiv(6)"
+                onmouseover="this.src='images/proyectos/LasRosasBasis_01_txt.png';"
+                onmouseout="this.src='images/proyectos/LasRosasBasis_01_small.jpg';">
+            </div>
+            <div class="col" style="width: 20%; padding-left: 2%; padding-right: 4%;">
+                <img class="foto_small"
+                src="images/proyectos/LasRosasLocales_01_small.jpg" style="width:100%; cursor:pointer;"
+                onclick="currentDiv(7)"
+                onmouseover="this.src='images/proyectos/LasRosasLocales_01_txt.png';"
+                onmouseout="this.src='images/proyectos/LasRosasLocales_01_small.jpg';">
+            </div>
+            <div class="col" style="width: 20%; padding-left: 1%; padding-right: 3%;">
+                <img class="foto_small" 
+                src="images/proyectos/PinarBasis_01_small.jpg" style="width:100%; cursor:pointer;"
+                onclick="currentDiv(8)"
+                onmouseover="this.src='images/proyectos/PinarBasis_01_txt.png';"
+                onmouseout="this.src='images/proyectos/PinarBasis_01_small.jpg';">
+            </div> 
+            <div class="col" style="width: 20%; padding-left: 2%; padding-right: 3%;">
+              <img class="foto_small"
+              src="images/proyectos/GardensClassic_01_small.jpg"  style="width:100%; cursor:pointer;"
+              onclick="currentDiv(9)"
+              onmouseover="this.src='images/proyectos/GardensClassic_01_txt.png';"
+              onmouseout="this.src='images/proyectos/GardensClassic_01_small.jpg';">
+          </div>
+          <div class="col" style="width: 20%; padding-left: 3%; padding-right: 1%;">
+              <img class="foto_small "
+              src="images/proyectos/GardensFull_01_small.jpg" style="width:100%; cursor:pointer;"
+              onclick="currentDiv(10)"
+              onmouseover="this.src='images/proyectos/GardensFull_01_txt.png';"
+              onmouseout="this.src='images/proyectos/GardensFull_01_small.jpg';">
+          </div>                     
+      </div>
+    </div>
+
+    <!-- tercer item carousel -->
+    <div class="carousel-item  text-center">
+      <div class="row" style="display: flex; align-items: center; padding-left: 10%; padding-right: 10%; 
+          padding-top: 4%; padding-bottom: 2%;">   
+          <div class="col" style="width: 20%; padding-left: 1%; padding-right: 2%;">
+              <img class="foto_small"
+              src="images/proyectos/CCampoLuxury_01_small.jpg" style="width:100%; cursor:pointer;"
+              onclick="currentDiv(11)" 
+              onmouseover="this.src='images/proyectos/CCampoLuxury_01_txt.png';"
+              onmouseout="this.src='images/proyectos/CCampoLuxury_01_small.jpg';">
+          </div>
+          <div class="col" style="width: 20%; padding-left: 2%; padding-right: 4%;">
+              <img class="foto_small"
+              src="images/proyectos/LaQuebradaClassic_01_small.jpg"  style="width:100%; cursor:pointer;"
+              onclick="currentDiv(12)"
+              onmouseover="this.src='images/proyectos/LaQuebradaClassic_01_txt.png';"
+              onmouseout="this.src='images/proyectos/LaQuebradaClassic_01_small.jpg';">
+          </div>
+          <div class="col" style="width: 20%; padding-left: 1%; padding-right: 3%;">
+              <img class="foto_small" 
+              src="images/proyectos/LaQuebradaHigh_01_small.jpg"  style="width:100%; cursor:pointer;"
+              onclick="currentDiv(13)"
+              onmouseover="this.src='images/proyectos/LaQuebradaHigh_01_txt.png';"
+              onmouseout="this.src='images/proyectos/LaQuebradaHigh_01_small.jpg';">
+          </div> 
+          <div class="col" style="width: 20%; padding-left: 2%; padding-right: 3%;">
+            <img class="foto_small"
+            src="images/proyectos/LasRosasBasis_01_small.jpg"  style="width:100%; cursor:pointer;"
+            onclick="currentDiv(14)"
+            onmouseover="this.src='images/proyectos/LasRosasBasis_01_txt.png';"
+            onmouseout="this.src='images/proyectos/LasRosasBasis_01_small.jpg';">
+          </div>
+          <div class="col" style="width: 20%; padding-left: 3%; padding-right: 1%;">
+            <img class="foto_small "
+            src="images/proyectos/LasRosasLocales_01_small.jpg" style="width:100%; cursor:pointer;"
+            onclick="currentDiv(15)"
+            onmouseover="this.src='images/proyectos/LasRosasLocales_01_txt.png';"
+            onmouseout="this.src='images/proyectos/LasRosasLocales_01_small.jpg';">
+          </div>                     
+    </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <i class="bi bi-chevron-double-left" style="color: black; font-size: 2rem;"></i>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <i class="bi bi-chevron-double-right" style="color: black; font-size: 2rem;"></i>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
  
 
   <!-- FINANCIACION -->
