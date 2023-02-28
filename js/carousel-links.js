@@ -31,27 +31,66 @@ const linkTo = (item) => {
 }
 
 const linkCheck = (item) => {
-    campoLuxuryButton.style.color = "black";
-    gardenClassicButton.style.color = "black";
-    gardenFullButton.style.color = "black";
-    quebradaClassicButton.style.color = "black";
-    pinarBasisButton.style.color = "black";
-    quebradaHighButton.style.color = "black";
-    rosasBasisButton.style.color = "black";
-    rosasLocalesButton.style.color = "black";
-    item.style.color = "red";
+    rosasLocalesButton.style.color =  "black";
+    rosasLocalesButton.style.backgroundColor = "transparent";
+    rosasLocalesButton.style.padding = "0px";
+    rosasBasisButton.style.color =  "black";
+    rosasBasisButton.style.backgroundColor = "transparent";
+    rosasBasisButton.style.padding = "0px";
+    quebradaHighButton.style.color =  "black";
+    quebradaHighButton.style.backgroundColor = "transparent";
+    quebradaHighButton.style.padding = "0px";
+    pinarBasisButton.style.color =  "black";
+    pinarBasisButton.style.backgroundColor = "transparent";
+    pinarBasisButton.style.padding = "0px";
+    quebradaClassicButton.style.color =  "black";
+    quebradaClassicButton.style.backgroundColor = "transparent";
+    quebradaClassicButton.style.padding = "0px";
+    gardenFullButton.style.color =  "black";
+    gardenFullButton.style.backgroundColor = "transparent";
+    gardenFullButton.style.padding = "0px";
+    gardenClassicButton.style.color =  "black";
+    gardenClassicButton.style.backgroundColor = "transparent";
+    gardenClassicButton.style.padding = "0px";
+    campoLuxuryButton.style.color =  "black";
+    campoLuxuryButton.style.backgroundColor = "transparent";
+    campoLuxuryButton.style.padding = "0px";
+
+    item.style.color = "white";
+    item.style.backgroundColor = "#517fbf";
+    item.style.padding = "1px"; 
 }
 
 const goTo = (item, itemButton) => {
-    campoLuxuryButton.style.color = "black";
-    gardenClassicButton.style.color = "black";
-    gardenFullButton.style.color = "black";
-    quebradaClassicButton.style.color = "black";
-    pinarBasisButton.style.color = "black";
-    quebradaHighButton.style.color = "black";
-    rosasBasisButton.style.color = "black";
-    rosasLocalesButton.style.color = "black";
-    itemButton.style.color = "red";
+    rosasLocalesButton.style.color =  "black";
+    rosasLocalesButton.style.backgroundColor = "transparent";
+    rosasLocalesButton.style.padding = "0px";
+    rosasBasisButton.style.color =  "black";
+    rosasBasisButton.style.backgroundColor = "transparent";
+    rosasBasisButton.style.padding = "0px";
+    quebradaHighButton.style.color =  "black";
+    quebradaHighButton.style.backgroundColor = "transparent";
+    quebradaHighButton.style.padding = "0px";
+    pinarBasisButton.style.color =  "black";
+    pinarBasisButton.style.backgroundColor = "transparent";
+    pinarBasisButton.style.padding = "0px";
+    quebradaClassicButton.style.color =  "black";
+    quebradaClassicButton.style.backgroundColor = "transparent";
+    quebradaClassicButton.style.padding = "0px";
+    gardenFullButton.style.color =  "black";
+    gardenFullButton.style.backgroundColor = "transparent";
+    gardenFullButton.style.padding = "0px";
+    gardenClassicButton.style.color =  "black";
+    gardenClassicButton.style.backgroundColor = "transparent";
+    gardenClassicButton.style.padding = "0px";
+    campoLuxuryButton.style.color =  "black";
+    campoLuxuryButton.style.backgroundColor = "transparent";
+    campoLuxuryButton.style.padding = "0px";
+
+    itemButton.style.color = "white";
+    itemButton.style.backgroundColor = "#517fbf";
+    itemButton.style.padding = "1px"; 
+
     campoLuxury.classList.remove("active")
     gardenClassic.classList.remove("active")
     gardenFull.classList.remove("active")
@@ -60,42 +99,76 @@ const goTo = (item, itemButton) => {
     quebradaHigh.classList.remove("active")
     rosasBasis.classList.remove("active")
     rosasLocales.classList.remove("active")
+
     item.classList.add("active")
 }
 
 const buttonCheck = () => {
     rosasLocalesButton.style.color =  "black";
+    rosasLocalesButton.style.backgroundColor = "transparent";
+    rosasLocalesButton.style.padding = "0px";
     rosasBasisButton.style.color =  "black";
+    rosasBasisButton.style.backgroundColor = "transparent";
+    rosasBasisButton.style.padding = "0px";
     quebradaHighButton.style.color =  "black";
+    quebradaHighButton.style.backgroundColor = "transparent";
+    quebradaHighButton.style.padding = "0px";
     pinarBasisButton.style.color =  "black";
+    pinarBasisButton.style.backgroundColor = "transparent";
+    pinarBasisButton.style.padding = "0px";
     quebradaClassicButton.style.color =  "black";
+    quebradaClassicButton.style.backgroundColor = "transparent";
+    quebradaClassicButton.style.padding = "0px";
     gardenFullButton.style.color =  "black";
+    gardenFullButton.style.backgroundColor = "transparent";
+    gardenFullButton.style.padding = "0px";
     gardenClassicButton.style.color =  "black";
+    gardenClassicButton.style.backgroundColor = "transparent";
+    gardenClassicButton.style.padding = "0px";
     campoLuxuryButton.style.color =  "black";
+    campoLuxuryButton.style.backgroundColor = "transparent";
+    campoLuxuryButton.style.padding = "0px";
+
     if (campoLuxury.className == "carousel-item active"){
-        campoLuxuryButton.style.color =  "blue";
+        campoLuxuryButton.style.color =  "white";
+        campoLuxuryButton.style.backgroundColor = "#517fbf";
+        campoLuxuryButton.style.padding = "1px";
     } else if(gardenClassic.className == "carousel-item active") {
-        gardenClassicButton.style.color =  "blue";
+        gardenClassicButton.style.color =  "white";
+        gardenClassicButton.style.backgroundColor = "#517fbf";
+        gardenClassicButton.style.padding = "1px";
     } else if(gardenFull.className == "carousel-item active") {
-        gardenFullButton.style.color =  "blue";
+        gardenFullButton.style.color =  "white";
+        gardenFullButton.style.backgroundColor = "#517fbf";
+        gardenFullButton.style.padding = "1px";
     }
     else if(quebradaClassic.className == "carousel-item active") {
-        quebradaClassicButton.style.color =  "blue";
+        quebradaClassicButton.style.color =  "white";
+        quebradaClassicButton.style.backgroundColor = "#517fbf";
+        quebradaClassicButton.style.padding = "1px";
     }
     else if(pinarBasis.className == "carousel-item active") {
-        pinarBasisButton.style.color =  "blue";
+        pinarBasisButton.style.color =  "white";
+        pinarBasisButton.style.backgroundColor = "#517fbf";
+        pinarBasisButton.style.padding = "1px";
     }
     else if(quebradaHigh.className == "carousel-item active") {
-        quebradaHighButton.style.color =  "blue";
+        quebradaHighButton.style.color =  "white";
+        quebradaHighButton.style.backgroundColor = "#517fbf";
+        quebradaHighButton.style.padding = "1px";
     }
     else if(rosasBasis.className == "carousel-item active") {
-        rosasBasisButton.style.color =  "blue";
+        rosasBasisButton.style.color =  "white";
+        rosasBasisButton.style.backgroundColor = "#517fbf";
+        rosasBasisButton.style.padding = "1px";
     }
     else if(rosasLocales.className == "carousel-item active") {
-        rosasLocalesButton.style.color =  "blue";
+        rosasLocalesButton.style.color =  "white";
+        rosasLocalesButton.style.backgroundColor = "#517fbf";
+        rosasLocalesButton.style.padding = "1px";
     }
 }
-
+buttonCheck()
 
 campoLuxuryButton.addEventListener("click", (e) => {
     e.preventDefault()
