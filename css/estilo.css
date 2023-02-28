@@ -476,6 +476,10 @@
     text-align: center;
   }
 
+  .logo-proveedor {
+    height: 80px;
+  }
+
 /* ---------------------------------*/
 
 @media screen and (max-width: 768px) {
@@ -710,6 +714,10 @@
 
   .texto-copyright {
     font-size: 0.6rem;   
+  }
+
+  .logo-proveedor {
+    height: 25px;
   }
 }
 
