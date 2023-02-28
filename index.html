@@ -51,22 +51,22 @@
             PROYECTOS <i class="fa fa-caret-down"></i>
       </a>
       <div id="listaProyectos" class="w3-bar-block w3-hide">
-            <a href="#proyectos" class="w3-bar-item w3-button sidebar-subitem" 
-              onclick="closeNav()">CLUB DE CAMPO LUXURY</a>
+            <a  href="#proyectos" class="w3-bar-item w3-button sidebar-subitem" 
+              onclick="closeNav(), goTo(campoLuxury, campoLuxuryButton)">CLUB DE CAMPO LUXURY</a>
             <a href="#proyectos" class="w3-bar-item w3-button sidebar-subitem"
-              onclick="closeNav()">GARDENS CLASSIC</a>
+              onclick="closeNav(), goTo(gardenClassic, gardenClassicButton)">GARDENS CLASSIC</a>
             <a href="#proyectos" class="w3-bar-item w3-button sidebar-subitem"
-              onclick="closeNav()">GARDENS FULL</a>
+              onclick="closeNav(), goTo(gardenFull, gardenFullButton)">GARDENS FULL</a>
             <a href="#proyectos" class="w3-bar-item w3-button sidebar-subitem"
-              onclick="closeNav()">LA QUEBRADA CLASSIC</a>
+              onclick="closeNav(),goTo(quebradaClassic, quebradaClassicButton)">LA QUEBRADA CLASSIC</a>
             <a href="#proyectos" class="w3-bar-item w3-button sidebar-subitem"
-              onclick="closeNav()">LA QUEBRADA HIGH</a>
+              onclick="closeNav(), goTo(quebradaHigh, quebradaHighButton)">LA QUEBRADA HIGH</a>
             <a href="#proyectos" class="w3-bar-item w3-button sidebar-subitem"
-              onclick="closeNav()">LAS ROSAS BASIS</a>
+              onclick="closeNav(), goTo(rosasBasis, rosasBasisButton)">LAS ROSAS BASIS</a>
             <a href="#proyectos" class="w3-bar-item w3-button sidebar-subitem"
-              onclick="closeNav()">LAS ROSAS LOCALES</a>
+              onclick="closeNav(), goTo(rosasLocales, rosasLocalesButton)">LAS ROSAS LOCALES</a>
             <a href="#proyectos" class="w3-bar-item w3-button sidebar-subitem"
-              onclick="closeNav()">PINAR BASIS</a>
+              onclick="closeNav(), goTo(pinarBasis, pinarBasisButton)">PINAR BASIS</a>
       </div>
       <a href="#financiacion" class="w3-bar-item w3-button w3-hover-white sidebar-item" 
             onclick="closeNav()">&nbsp;FINANCIACI&Oacute;N
@@ -168,21 +168,21 @@
   <div class="w3-container text-center" style="margin-top: 8%; padding-left: 10%; padding-right: 10%;">
     <p class="titulo-grande" style="margin-bottom: 2%;">PROYECTOS</p>
     <p class="nombre-proyecto" style="text-align: center; margin-bottom: 2%;"><b>
-        CLUB DE CAMPO LUXURY <font class="pipeline">|</font> 
-        GARDENS CLASSIC <font class="pipeline">|</font> 
-        GARDENS FULL <font class="pipeline">|</font>  
-        LA QUEBRADA CLASSIC <font class="pipeline">|</font>  
-        PINAR BASIS <br> 
-        LA QUEBRADA HIGH <font class="pipeline">|</font> 
-        LAS ROSAS BASIS <font class="pipeline">|</font> 
-        LAS ROSAS LOCALES <font class="pipeline">|</font>  
+        <a href="#proyectos" id="campoLuxuryButton">CLUB DE CAMPO LUXURY</a> <font class="pipeline">|</font> 
+        <a href="#proyectos" id="gardenClassicButton">GARDENS CLASSIC</a> <font class="pipeline">|</font> 
+        <a href="#proyectos" id="gardenFullButton">GARDENS FULL</a> <font class="pipeline">|</font>  
+        <a href="#proyectos" id="quebradaClassicButton">LA QUEBRADA CLASSIC</a> <font class="pipeline">|</font>  
+        <a href="#proyectos" id="pinarBasisButton"> PINAR BASIS</a> <br> 
+        <a href="#proyectos" id="quebradaHighButton">LA QUEBRADA HIGH</a> <font class="pipeline">|</font> 
+        <a href="#proyectos" id="rosasBasisButton"> ROSAS BASISLAS</a> <font class="pipeline">|</font> 
+        <a href="#proyectos" id="rosasLocalesButton">LAS ROSAS LOCALES</a> <font class="pipeline">|</font>  
         </b>
     </p>
 
     <!-- fotos grandes -->
-    <div id="carouselProyectos" class="carousel slide carousel-fade" data-bs-ride="false">
+    <div id="carouselProyectos" class="carousel slide carousel-fade" data-bs-ride="false" data-bs-interval="0">
         <div class="carousel-inner">
-            <div class="carousel-item active">
+            <div id="campoLuxury" class="carousel-item active">
                 <div style="position: relative;">
                     <img src="images/proyectos/CCampoLuxury_01.jpg" class="d-block w-100">
                     <div class="fondo-texto-foto-proyecto">
@@ -223,7 +223,7 @@
                 </div>
             </div>
 
-            <div class="carousel-item ">
+            <div id="gardenClassic" class="carousel-item ">
                 <div style="position: relative;">
                     <img src="images/proyectos/GardensClassic_01.jpg" class="d-block w-100">     
                     <div class="fondo-texto-foto-proyecto">
@@ -264,7 +264,7 @@
                 </div>                
             </div>
 
-            <div class="carousel-item">
+            <div id="gardenFull" class="carousel-item">
                 <div style="position: relative;">
                     <img src="images/proyectos/GardensFull_01.jpg" class="d-block w-100">     
                     <div class="fondo-texto-foto-proyecto">
@@ -305,7 +305,7 @@
               </div>                  
             </div>
 
-            <div class="carousel-item">
+            <div id="quebradaClassic" class="carousel-item">
               <div style="position: relative;">
                   <img src="images/proyectos/LaQuebradaClassic_01.jpg" class="d-block w-100">     
                   <div class="fondo-texto-foto-proyecto">
@@ -346,7 +346,7 @@
               </div>                  
             </div>
 
-            <div class="carousel-item">
+            <div id="pinarBasis" class="carousel-item">
               <div style="position: relative;">
                   <img src="images/proyectos/PinarBasis_01.jpg" class="d-block w-100">     
                   <div class="fondo-texto-foto-proyecto">
@@ -387,7 +387,7 @@
               </div>                  
             </div>
 
-            <div class="carousel-item">
+            <div id="quebradaHigh" class="carousel-item">
               <div style="position: relative;">
                   <img src="images/proyectos/LaQuebradaHigh_01.jpg" class="d-block w-100">     
                   <div class="fondo-texto-foto-proyecto">
@@ -428,7 +428,7 @@
               </div>                  
             </div>
 
-            <div class="carousel-item">
+            <div id="rosasBasis" class="carousel-item">
               <div style="position: relative;">
                   <img src="images/proyectos/LasRosasBasis_01.jpg" class="d-block w-100">     
                   <div class="fondo-texto-foto-proyecto">
@@ -469,7 +469,7 @@
               </div>                  
             </div>
 
-            <div class="carousel-item">
+            <div id="rosasLocales" class="carousel-item">
               <div style="position: relative;">
                   <img src="images/proyectos/LasRosasLocales_01.jpg" class="d-block w-100">     
                   <div class="fondo-texto-foto-proyecto">
@@ -512,14 +512,14 @@
 
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselProyectos" 
-            data-bs-slide="prev" style="margin-left: -30px; width: 0% !important;">
+            data-bs-slide="prev" onclick="setTimeout(buttonCheck ,1000)" style="margin-left: -30px; width: 0% !important;">
             <span class="carousel-control-prev-icon" aria-hidden="true" style="color:#47c3f8;">
                 <i class="bi bi-chevron-double-left" style="font-size: 2.5rem; width: 0% !important;"></i>
             </span>
             <span class="visually-hidden">Anterior</span>
         </button>
         <button class="carousel-control-next" type="button" data-bs-target="#carouselProyectos" 
-            data-bs-slide="next" style="margin-right: -30px; width: 0% !important;">
+            data-bs-slide="next" onclick="setTimeout(buttonCheck ,1000)" style="margin-right: -30px; width: 0% !important;">
             <span class="carousel-control-next-icon" aria-hidden="true" style="color:#47c3f8;">
                 <i class="bi bi-chevron-double-right" style="font-size: 2.5rem; width: 0% !important;"></i>
             </span>
@@ -700,6 +700,6 @@
 </script>
 
 <script src="js/lightbox-plus-jquery.js"></script>
-
+<script src="js/carousel-links.js"></script>
 </body>
 </html>
