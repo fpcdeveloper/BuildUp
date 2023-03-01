@@ -87,9 +87,7 @@ const goTo = (item, itemButton) => {
     campoLuxuryButton.style.backgroundColor = "transparent";
     campoLuxuryButton.style.padding = "0px";
 
-    itemButton.style.color = "black";
-    itemButton.style.backgroundColor = "#ededed";
-    itemButton.style.padding = "1px"; 
+    itemButton.style.color = "#47c3f8";
 
     campoLuxury.classList.remove("active")
     gardenClassic.classList.remove("active")
@@ -130,42 +128,26 @@ const buttonCheck = () => {
     campoLuxuryButton.style.padding = "0px";
 
     if (campoLuxury.className == "carousel-item active"){
-        campoLuxuryButton.style.color =  "black";
-        campoLuxuryButton.style.backgroundColor = "#ededed";
-        campoLuxuryButton.style.padding = "1px";
+        campoLuxuryButton.style.color =  "#47c3f8";
     } else if(gardenClassic.className == "carousel-item active") {
-        gardenClassicButton.style.color =  "black";
-        gardenClassicButton.style.backgroundColor = "#ededed";
-        gardenClassicButton.style.padding = "1px";
+        gardenClassicButton.style.color =  "#47c3f8";        
     } else if(gardenFull.className == "carousel-item active") {
-        gardenFullButton.style.color =  "black";
-        gardenFullButton.style.backgroundColor = "#ededed";
-        gardenFullButton.style.padding = "1px";
+        gardenFullButton.style.color =  "#47c3f8";        
     }
     else if(quebradaClassic.className == "carousel-item active") {
-        quebradaClassicButton.style.color =  "black";
-        quebradaClassicButton.style.backgroundColor = "#ededed";
-        quebradaClassicButton.style.padding = "1px";
+        quebradaClassicButton.style.color =  "#47c3f8";       
     }
     else if(pinarBasis.className == "carousel-item active") {
-        pinarBasisButton.style.color =  "black";
-        pinarBasisButton.style.backgroundColor = "#ededed";
-        pinarBasisButton.style.padding = "1px";
+        pinarBasisButton.style.color =  "#47c3f8";        
     }
     else if(quebradaHigh.className == "carousel-item active") {
-        quebradaHighButton.style.color =  "black";
-        quebradaHighButton.style.backgroundColor = "#ededed";
-        quebradaHighButton.style.padding = "1px";
+        quebradaHighButton.style.color =  "#47c3f8";
     }
     else if(rosasBasis.className == "carousel-item active") {
-        rosasBasisButton.style.color =  "black";
-        rosasBasisButton.style.backgroundColor = "#ededed";
-        rosasBasisButton.style.padding = "1px";
+        rosasBasisButton.style.color =  "#47c3f8";
     }
     else if(rosasLocales.className == "carousel-item active") {
-        rosasLocalesButton.style.color =  "black";
-        rosasLocalesButton.style.backgroundColor = "#ededed";
-        rosasLocalesButton.style.padding = "1px";
+        rosasLocalesButton.style.color =  "#47c3f8";
     }
 }
 buttonCheck()
