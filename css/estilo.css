@@ -150,13 +150,16 @@
 
 .sidebar {
   width: 25%;
+  font-family: 'Montserrat-Regular', sans-serif ;
 }
     
 .sidebar-item {
+  font-family: 'Montserrat-Regular', sans-serif ;
   font-size: 1rem;
 }
 
 .sidebar-subitem {
+  font-family: 'Montserrat-Regular', sans-serif ;
   font-size: 0.9rem;
   color:#c5c4c4;
   margin-left: 25%;
@@ -169,6 +172,7 @@
 
 
 .nav-link {
+    font-family: 'Montserrat-Regular', sans-serif ;
     color: black; 
     font-size: 18px;
     border:solid 1px black !important;
@@ -177,6 +181,7 @@
 
 .nav-link.active {
     /*background-color: rgb(248, 245, 245) !important;*/
+    font-family: 'Montserrat-Regular', sans-serif ;
     background-color: transparent !important;
     border-bottom: 0 !important;
     font-weight: bold !important;
