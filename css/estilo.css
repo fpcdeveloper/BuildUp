@@ -161,6 +161,14 @@
   font-size: 1rem;
 }
 
+.sidebar-item:hover {
+  font-family: 'Montserrat-Regular', sans-serif ;  
+  font-weight: bold;
+  color:#47c3f8 !important;
+  background-color:#000!important
+
+}
+
 .sidebar-subitem {
   font-family: 'Montserrat-Regular', sans-serif ;
   font-size: 0.9rem;
@@ -168,11 +176,24 @@
   margin-left: 25%;
 }
 
+.sidebar-subitem:hover {
+  font-family: 'Montserrat-Regular', sans-serif ;  
+  font-weight: bold;
+  color:#47c3f8 !important;
+  background-color:#000!important;
+  margin-left: 25%;
+}
+
 .sidebar-burger {
     font-size: 2.2rem;
     padding: 8px 20px;
+    color:#c5c4c4;
 }
 
+.sidebar-burger:hover {
+  color:#47c3f8 !important;
+  background-color:#000!important;
+}
 
 .nav-link {
     font-family: 'Montserrat-Regular', sans-serif ;

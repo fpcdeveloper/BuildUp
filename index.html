@@ -36,16 +36,16 @@
 <!-- MENU SIDEBAR -->
 <nav class="w3-sidebar w3-black w3-animate-right w3-large sidebar" 
     style="display:none; padding-top:80px; right:0; z-index:2" id="mySidebar">
-  <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black  w3-display-topleft" 
+  <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-display-topleft sidebar-burger" 
     style="padding:20 12px;"><i class="bi bi-chevron-double-right"></i>
   </a>
   <div class="w3-bar-block w3-left">
-      <a href="#home" class="w3-bar-item w3-button w3-hover-white sidebar-item" 
+      <a href="#home" class="w3-bar-item w3-button sidebar-item" 
             onclick="closeNav()">&nbsp;INICIO
       </a>
       <a href="javascript:void(0)" id="myBtn" onclick="myAccFunc()" 
-            class="w3-button w3-block w3-hover-white sidebar-item">
-            PROYECTOS <i class="fa fa-caret-down"></i>
+            class="w3-button w3-block sidebar-item">
+            PROYECTOS&nbsp;&nbsp; <i class="fa fa-caret-down"></i>
       </a>
       <div id="listaProyectos" class="w3-bar-block w3-hide">
             <a  href="#proyectos" class="w3-bar-item w3-button sidebar-subitem" 
@@ -65,15 +65,15 @@
             <a href="#proyectos" class="w3-bar-item w3-button sidebar-subitem"
               onclick="closeNav(), goTo(rosasLocales, rosasLocalesButton)">LAS ROSAS LOCALES</a>           
       </div>
-      <a href="#financiacion" class="w3-bar-item w3-button w3-hover-white sidebar-item" 
+      <a href="#financiacion" class="w3-bar-item w3-button sidebar-item" 
             onclick="closeNav()">&nbsp;FINANCIACI&Oacute;N
       </a>
-      <a href="#contacto" class="w3-bar-item w3-button w3-hover-white sidebar-item" 
+      <a href="#contacto" class="w3-bar-item w3-button sidebar-item" 
             onclick="closeNav()">&nbsp;CONTACTO
       </a>
   </div>
 </nav>        
-<span class="w3-button w3-top sidebar-burger w3-text-grey w3-hover-text-black" 
+<span class="w3-button w3-top sidebar-burger" 
   style="width:auto; right:0; background-color: transparent !important; position: absolute;" onclick="openNav()">
   <i class="fa fa-bars"></i>
 </span> 
