@@ -22,9 +22,12 @@
   }
 
 .flecha-abajo-sobre-imagen {
-    position: absolute;
-    top: 90%;
-    left: 5%;
+    margin-top: 2%;
+    text-align: center;
+  }
+
+  .separador-proyectos {
+    height: 2%;
   }
 
 .logo-proyectos {
@@ -300,16 +303,27 @@
       padding-top: 2%;   
     }
 
-    /*.rectangulo-foto-proyecto{
-      position:absolute;
-      left:0;
-      bottom:8%;
-      background-color: transparent;
-      border: 1px solid;
-      border-color:#3cbcf3;
-      width: 58%; 
-      height: 15%;           
-    }*/
+    .carousel-control-prev {
+      margin-left: -45px; 
+      width: 0% !important; 
+      top: -30%;
+    }
+
+    .carousel-control-next {
+      margin-right: -35px; 
+      width: 0% !important;
+      top: -30%;
+    }
+
+    .flecha-anterior {
+      font-size: 3rem; 
+      width: 0% !important;
+    }
+
+    .flecha-siguiente {
+      font-size: 3rem; 
+      width: 0% !important;
+    }
 
     .texto-financiacion {
       font-family: 'Montserrat-Regular'; 
@@ -502,6 +516,10 @@
     display:none;
   }
 
+  .separador-proyectos {
+    height: 50px;
+  }
+
   .logo_en_navbar {
     width: 42px;
   }
@@ -640,11 +658,33 @@
   }
 
   .texto-foto-proyecto {
-    font-size: 0.7rem;
+    font-size: 0.6rem;
     letter-spacing: 7px;   
     padding-top: 2%;   
     padding-bottom: 0; 
     margin-bottom:2%;  
+  }
+
+  .carousel-control-prev {
+    margin-left: -15px; 
+    width: 0% !important; 
+    top: -30%;
+  }
+
+  .carousel-control-next {
+    margin-right: -15px; 
+    width: 0% !important;
+    top: -30%;
+  }
+
+  .flecha-anterior {
+    font-size: 2rem; 
+    width: 0% !important;
+  }
+
+  .flecha-siguiente {
+    font-size: 2rem; 
+    width: 0% !important;
   }
 
   .rectangulo-foto-proyecto{
