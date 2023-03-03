@@ -163,15 +163,28 @@
     
 .sidebar-item {
   font-family: 'Montserrat-Regular', sans-serif ;
-  font-size: 1rem;
+  font-size: 1rem;  
+}
+
+.sidebar-item::after{
+  font-family: 'Montserrat-Regular', sans-serif ;
+  font-size: 1rem;  
+  display:block;
+  content: '';
+  border-bottom: solid 2px #47c3f8;  
+  transform: scaleX(0);  
+  transition: transform 800ms ease-in-out;
+}
+
+.sidebar-item:hover:after {
+  transform: scaleX(1);
 }
 
 .sidebar-item:hover {
   font-family: 'Montserrat-Regular', sans-serif ;  
   font-weight: bold;
   color:#47c3f8 !important;
-  background-color:#000!important
-
+  background-color:#000!important;
 }
 
 .sidebar-subitem {
@@ -181,12 +194,26 @@
   margin-left: 25%;
 }
 
+.sidebar-subitem::after{
+  font-family: 'Montserrat-Regular', sans-serif ;
+  font-size: 0.9rem;  
+  display:block;
+  content: '';
+  border-bottom: solid 2px #47c3f8;  
+  transform: scaleX(0);  
+  transition: transform 800ms ease-in-out;
+}
+
 .sidebar-subitem:hover {
   font-family: 'Montserrat-Regular', sans-serif ;  
   font-weight: bold;
   color:#47c3f8 !important;
   background-color:#000!important;
   margin-left: 25%;
+}
+
+.sidebar-subitem:hover:after {
+  transform: scaleX(1);
 }
 
 .sidebar-burger {
