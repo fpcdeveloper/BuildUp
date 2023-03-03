@@ -158,6 +158,7 @@
 .sidebar {
   width: 25%;
   font-family: 'Montserrat-Regular', sans-serif ;
+  opacity: 0.9;
 }
     
 .sidebar-item {
