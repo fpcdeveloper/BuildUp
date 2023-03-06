@@ -131,9 +131,9 @@ body{
 
 .proyectamos {
   animation-name: proyectamos-animation;
-  animation-duration: 4s;
-  animation: proyectamos-animation 5s;
-  animation-timing-function: ease-out;
+  animation-duration: 3s;
+  animation: proyectamos-animation 3s;
+  animation-timing-function: ease-in;
 }
 
 @keyframes proyectamos-animation {
