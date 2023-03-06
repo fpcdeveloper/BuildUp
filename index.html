@@ -4,6 +4,7 @@
     <title>BUILD UP - LIFE PLACES</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
         rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
         crossorigin="anonymous">
@@ -13,33 +14,23 @@
     <link rel="stylesheet" href="css/lightbox.css">
     <link rel="stylesheet" href="css/w3.css">      
     <link rel="stylesheet" href="css/estilo.css">
-    <link rel="icon" href="images/favicon-32x32.png">  
-    
-    <style>        
-        html {
-          height: 100%;
-          line-height: 1.8;
-        }
 
-        body{
-          height: 100%;                
-          background: white;          
-        } 
-      
-    </style>    
+    <link rel="icon" href="images/favicon-32x32.png">  
+
 </head>
 
 <body>
 
 <div class="container-fluid" style="padding-left: 0px; padding-right: 0px;">
 <!-- MENU SIDEBAR -->
-<nav class="w3-sidebar w3-black w3-animate-right w3-large sidebar" 
+<nav class="w3-sidebar-custom animate-right sidebar" 
     style="display:none; padding-top:80px; right:0; z-index:2" id="mySidebar">
   <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-display-topleft sidebar-burger" 
-    style="padding:20 12px;"><i class="bi bi-chevron-double-right"></i>
+    style="padding:20 12px;">
+    <i class="bi bi-chevron-double-right"></i>
   </a>
   <div class="w3-bar-block w3-left">
-      <a href="#home" class="w3-bar-item w3-button sidebar-item link-menu" 
+      <a href="#home" class="w3-bar-item w3-button sidebar-item" 
             onclick="closeNav()">&nbsp;INICIO
       </a>
       <a href="javascript:void(0)" id="myBtn" onclick="myAccFunc()" 
@@ -74,7 +65,8 @@
             onclick="closeNav()">&nbsp;CONTACTO
       </a>
   </div>
-</nav>        
+</nav>  
+      
 <span class="w3-button w3-top sidebar-burger" 
   style="width:auto; right:0; background-color: transparent !important; position: absolute;" onclick="openNav()">
   <i class="fa fa-bars"></i>
@@ -734,5 +726,6 @@
 
 <script src="js/lightbox-plus-jquery.js"></script>
 <script src="js/carousel-links.js"></script>
+
 </body>
 </html>

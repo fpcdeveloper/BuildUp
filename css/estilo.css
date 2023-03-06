@@ -14,6 +14,15 @@
   src: url("../fonts/Montserrat/static/Montserrat-Regular.ttf");
 }  
 
+html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+body{
+  height: 100%;                
+  background: white;          
+} 
 
 .logo-sobre-imagen {
     position: absolute;
@@ -155,8 +164,27 @@
   border: 0px solid transparent;
 }
 
+.animate-right{
+  position:relative;
+  animation:animateright 0.9s
+  }
+  @keyframes animateright{
+    from{right:-350px;opacity:0} 
+    to{right:0;opacity:1}
+  }
+
+.w3-sidebar-custom{
+  height:100%;
+  width:100px;
+  position:fixed!important;
+  z-index:1;
+  overflow:auto;
+  color:#fff!important;
+  background-color:#000!important;
+}
+
 .sidebar {
-  width: 25%;
+  width: 350px;
   font-family: 'Montserrat-Regular', sans-serif ;
   opacity: 0.9;
 }
@@ -226,23 +254,6 @@
   color:#47c3f8 !important;
   background-color:#000!important;
 }
-
-.nav-link {
-    font-family: 'Montserrat-Regular', sans-serif ;
-    color: black; 
-    font-size: 18px;
-    border:solid 1px black !important;
-    background-color: #d3d3d3 !important;    
-  }
-
-.nav-link.active {
-    /*background-color: rgb(248, 245, 245) !important;*/
-    font-family: 'Montserrat-Regular', sans-serif ;
-    background-color: transparent !important;
-    border-bottom: 0 !important;
-    font-weight: bold !important;
-    font-size: 20px !important; 
-  }
 
   i.fab {
     font-size: 2rem;
@@ -752,8 +763,29 @@
     font-size: 0.7rem;    
   }*/
 
+  .animate-right{
+    position:relative;
+    animation:animateright 0.9s
+    }
+    @keyframes animateright{
+      from{right:-400px;opacity:0} 
+      to{right:0;opacity:1}
+    }
+
+    .w3-sidebar-custom{
+      height:100%;
+      width:100px;
+      position:fixed!important;
+      z-index:1;
+      overflow:inherit;
+      color:#fff!important;
+      background-color:#000!important;
+    }
+
   .sidebar {
     width: 300px;
+    font-family: 'Montserrat-Regular', sans-serif ;
+    opacity: 0.9;
   }
 
   .sidebar-item {
